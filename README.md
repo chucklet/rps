@@ -1,6 +1,9 @@
 # RPS
-A Rock Paper Scissors project for Shawnee Mission South
+A Rock Paper Scissors project for Shawnee Mission South.
+
 Original code/algorithm imported from work by Colin Wakefield & Jett Kaspar
+
+
 
 Based off of RPS Code from Original by
 Computer Science and Software Engineering

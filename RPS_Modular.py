@@ -6,13 +6,13 @@
 
 import _tkinter
 import Player_def
-import Team2, HumanPlayer
+import TeamX, HumanPlayer
 
-all_files = [Player_def, Team2, HumanPlayer]
+all_files = [Player_def, TeamX, HumanPlayer]
 for k in all_files:
     reload(k)
 
-modules = [Team2.Team2(), HumanPlayer.HumanPlayer()]
+modules = [TeamX.Team2(), HumanPlayer.HumanPlayer()]
 
 #^^^^^SET THREE INSTANCES OF TeamX ABOVE TO THE TEAM NAME OF THE COMPUTER TEAM BEFORE RUNNING^^^^^
 

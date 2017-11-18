@@ -1,5 +1,6 @@
 # Editing RPS_Runner to be more modular
 # And to work with future GUI
+# Be sure to set TeamX below
 
 import _tkinter
 import Player_def
@@ -10,6 +11,8 @@ for k in all_files:
     reload(k)
 
 modules = [TeamX.TeamX(), HumanPlayer.HumanPlayer()]
+
+#SET THREE INSTANCES OF TeamX ABOVE TO THE TEAM NAME OF THE COMPUTER TEAM BEFORE RUNNING^^^^^
 
 def winner(player1, player2):
     """Returns an int representing the winner of the round,

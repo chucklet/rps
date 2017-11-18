@@ -1,6 +1,7 @@
 # RPS
 A Rock Paper Scissors project for Shawnee Mission South.
-Released under the MIT Liscense
+Released under the MIT Liscense:
+
 https://opensource.org/licenses/MIT
 
 

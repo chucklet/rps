@@ -6,13 +6,13 @@
 
 import _tkinter
 import Player_def
-import TeamX, HumanPlayer
+import Team2, HumanPlayer
 
-all_files = [Player_def, TeamX, HumanPlayer]
+all_files = [Player_def, Team2, HumanPlayer]
 for k in all_files:
     reload(k)
 
-modules = [TeamX.TeamX(), HumanPlayer.HumanPlayer()]
+modules = [Team2.Team2(), HumanPlayer.HumanPlayer()]
 
 #^^^^^SET THREE INSTANCES OF TeamX ABOVE TO THE TEAM NAME OF THE COMPUTER TEAM BEFORE RUNNING^^^^^
 
@@ -20,9 +20,6 @@ def winner(player1, player2):
     """Returns an int representing the winner of the round,
         and adds the moves to both player's move history
         0 = tie, 1 = 1st arg win, 2 = 2nd arg win, -1 = ERROR"""
-    #0 = TIE
-    #1 = player 1
-    #2 = player 2
     move1 = player1.move(player2)
     move2 = player2.move(player1)
 
